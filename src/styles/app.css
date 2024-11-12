@@ -428,3 +428,24 @@ footer {
 .inactive {
     display: none;
 }
+/* Estilos por defecto (para pantallas grandes) */
+body {
+    font-size: 16px;
+    background-color: white;
+}
+
+/* Estilos para pantallas de tabletas */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        background-color: lightgray;
+    }
+}
+
+/* Estilos para pantallas móviles */
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+        background-color: lightblue;
+    }
+}
