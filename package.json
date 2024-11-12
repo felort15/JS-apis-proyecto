@@ -1,0 +1,11 @@
+{
+  "name": "js-apis-proyecto",
+  "version": "1.0.0",
+  "description": "Curso practico de API REST con JS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Felipe Ortiz",
+  "license": "MIT"
+}
