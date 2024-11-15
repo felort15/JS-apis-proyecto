@@ -8,8 +8,9 @@ trendingBtn.addEventListener('click', () => {
 
 arrowBtn.addEventListener('click', () => {
   history.back();
-  // location.hash = '#home';
-});
+}
+ // location.hash = '#home';
+)
 
 window.addEventListener('DOMContentLoaded', navigator, false);
 window.addEventListener('hashchange', navigator, false);
