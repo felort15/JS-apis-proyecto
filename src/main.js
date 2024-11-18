@@ -130,3 +130,4 @@ async function getRelatedMoviesId(id) {
 
   createMovies(relatedMovies, relatedMoviesContainer);
 }
+

@@ -85,7 +85,9 @@ input::placeholder {
 
 button {
     background-color: var(--purple-dark-1);
-    border: none;
+    height: 35px;
+    width: 60px;
+    border-radius: 10px;
     color: var(--purple-light-2);
     font-weight: var(--font-weight-text2);
     font-size: 14px;
@@ -138,7 +140,7 @@ footer {
     background-image: url('https://pics.filmaffinity.com/Deadpool-777527803-large.jpg');
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.35) 19.27%, rgba(0, 0, 0, 0) 29.17%), url(https://pics.filmaffinity.com/Deadpool-777527803-large.jpg);
     background-size: cover !important;
-    height: 480px;
+    height: 350px;
     position: fixed;
     top: 0;
     width: 100%;
@@ -329,18 +331,18 @@ footer {
 .genericList-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 32px 24px;
 }
 
 .genericList-container .movie-container {
     display: inline-block;
-    width: 47.5%;
+    width: 15rem;
 }
 
 .genericList-container .movie-img {
-    width: 90%;
+    width: 80%;
 }
 
 
