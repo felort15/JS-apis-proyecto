@@ -39,12 +39,13 @@ function homePage() {
 
   headerSection.classList.remove('header-container--long');
   headerSection.style.background = '';
+  homeBtn.classList.add('active')
+  homeBtn.classList.remove("homeBtn")
   arrowBtn.classList.add('inactive');
   arrowBtn.classList.remove('header-arrow--white');
   headerTitle.classList.remove('inactive');
   headerCategoryTitle.classList.add('inactive');
   searchForm.classList.remove('inactive');
-
   trendingPreviewSection.classList.remove('inactive');
   categoriesPreviewSection.classList.remove('inactive');
   genericSection.classList.add('inactive');
@@ -83,7 +84,7 @@ function movieDetailsPage() {
   console.log('Movie!!');
 
   headerSection.classList.add('header-container--long');
-  headerSection.style.background = '';
+  headerSection.style.background = ''; 
   arrowBtn.classList.remove('inactive');
   arrowBtn.classList.add('header-arrow--white');
   headerTitle.classList.add('inactive');

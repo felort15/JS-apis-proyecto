@@ -85,7 +85,7 @@ input::placeholder {
 
 button {
     background-color: var(--purple-dark-1);
-    height: 35px;
+    height: 32px;
     width: 60px;
     border-radius: 10px;
     color: var(--purple-light-2);
