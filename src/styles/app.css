@@ -172,6 +172,7 @@ footer {
     justify-content: center;
     width: 100%;
     flex-wrap: nowrap;
+    padding-top: 10px;
 }
 
 .header-searchForm input {
