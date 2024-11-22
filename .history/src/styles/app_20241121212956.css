@@ -175,7 +175,6 @@ button {
 .movie-img {
   border-radius: 8px;
   min-height: 175px;
-  min-width: 150px;
 }
 
 .movie-btn {
@@ -489,44 +488,3 @@ footer {
       opacity: 0%;
     }
   }
-  /* Styles for small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    body {
-        background-color: lightblue;
-    }
-}
-
-/* Styles for medium devices (tablets, 600px to 900px) */
-@media only screen and (min-width: 601px) and (max-width: 900px) {
-    body {
-        background-color: lightgreen;
-    }
-}
-
-/* Styles for large devices (desktops, 900px and up) */
-@media only screen and (min-width: 901px) {
-    body {
-        background-color: lightcoral;
-    }
-}
-
-/* Styles for extra large devices (large desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    body {
-        background-color: lightgoldenrodyellow;
-    }
-}
-
-/* Portrait orientation for tablets and phones */
-@media only screen and (orientation: portrait) {
-    body {
-        font-size: 18px;
-    }
-}
-
-/* Landscape orientation for tablets and phones */
-@media only screen and (orientation: landscape) {
-    body {
-        font-size: 16px;
-    }
-}

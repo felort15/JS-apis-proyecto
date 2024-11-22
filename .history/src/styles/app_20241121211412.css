@@ -45,54 +45,6 @@ h1, h2, h3 {
 }
 
 h1, h2 {
-  font-size: 24/* General */
-  
-}
-
-:root {
-  --purple-light-1: #FBFAFB;
-  --purple-light-2: #EEEAF2;
-  --purple-medium-1: #AA83C8;
-  --purple-medium-2: #8B48BF;
-  --purple-medium-3: #5C218A;
-  --purple-dark-1: #3E0F64;
-  --purple-dark-2: #2A0646;
-
-  --yellow: #EECC75;
-  --green: #CAD297;
-  --aqua: #B7EAC5;
-  --lightBlue: #A2EEE5;
-  --darkBlue: #8EA2EA;
-  --red: #F09D9D;
-
-  --font-family-titles: 'Dosis', sans-serif;
-  --font-family-text: 'Red Hat Display', sans-serif;
-  --font-weight-title1: 800;
-  --font-weight-title2: 700;
-  --font-weight-text1: 400;
-  --font-weight-text2: 500;
-}
-
-html {
-  background-color: var(--purple-medium-3);
-}
-
-body {
-  background-color: var(--purple-light-1);
-  color: var(--purple-dark-2);
-  font-family: var(--font-family-text);
-  font-weight: var(--font-weight-text1);
-  font-size: 16px;
-  margin: 4px 0 0 0;
-  padding: 0;
-}
-
-h1, h2, h3 {
-  margin: 0;
-  padding: 0;
-}
-
-h1, h2 {
   font-size: 24px;
   color: var(--purple-dark-2);
   font-family: var(--font-family-titles);
@@ -175,7 +127,6 @@ button {
 .movie-img {
   border-radius: 8px;
   min-height: 175px;
-  min-width: 150px;
 }
 
 .movie-btn {
@@ -482,51 +433,10 @@ footer {
 
 /* Animations */
 @keyframes loading-skeleton {
-    0%, 100% {
-      opacity: 100%;
-    }
-    50% {
-      opacity: 0%;
-    }
+  0%, 100% {
+    opacity: 100%;
   }
-  /* Styles for small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    body {
-        background-color: lightblue;
-    }
-}
-
-/* Styles for medium devices (tablets, 600px to 900px) */
-@media only screen and (min-width: 601px) and (max-width: 900px) {
-    body {
-        background-color: lightgreen;
-    }
-}
-
-/* Styles for large devices (desktops, 900px and up) */
-@media only screen and (min-width: 901px) {
-    body {
-        background-color: lightcoral;
-    }
-}
-
-/* Styles for extra large devices (large desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    body {
-        background-color: lightgoldenrodyellow;
-    }
-}
-
-/* Portrait orientation for tablets and phones */
-@media only screen and (orientation: portrait) {
-    body {
-        font-size: 18px;
-    }
-}
-
-/* Landscape orientation for tablets and phones */
-@media only screen and (orientation: landscape) {
-    body {
-        font-size: 16px;
-    }
+  50% {
+    opacity: 0%;
+  }
 }

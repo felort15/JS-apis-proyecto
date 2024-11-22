@@ -174,8 +174,11 @@ button {
 
 .movie-img {
   border-radius: 8px;
-  min-height: 175px;
-  min-width: 150px;
+  width: 200px;
+  height: 200px;
+  row-gap: 10px;
+  justify-content: center;
+
 }
 
 .movie-btn {
