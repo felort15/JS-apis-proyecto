@@ -4,11 +4,18 @@
   "description": "Curso practico de API REST con JS",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "author": "Felipe Ortiz",
   "license": "MIT",
   "dependencies": {
     "axios": "^1.7.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.2.0"
   }
 }
